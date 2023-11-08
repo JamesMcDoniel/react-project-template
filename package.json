@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:styles": "stylelint **/*.{ts,tsx}"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@jamesmcdoniel/eslint-config": "^1.0.0",
     "@jamesmcdoniel/prettier-config": "^1.0.0",
+    "@jamesmcdoniel/stylelint-config": "^1.0.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
@@ -29,7 +31,9 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "eslint-plugin-testing-library": "^6.1.0",
     "eslint-plugin-vitest": "^0.3.9",
+    "postcss-styled-syntax": "^0.5.0",
     "prettier": "^3.0.3",
+    "stylelint": "^15.11.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
