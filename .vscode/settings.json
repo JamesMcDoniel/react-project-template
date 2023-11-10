@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "stylelint.validate": ["css", "typescript", "typescriptreact"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
