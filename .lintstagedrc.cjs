@@ -1,4 +1,4 @@
 module.exports = {
   '*.{ts,tsx}': ['eslint --fix', 'stylelint --fix'],
-  '*': 'prettier --write'
+  '*': 'prettier --ignore-unknown --write'
 };
