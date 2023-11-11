@@ -21,16 +21,6 @@ export default createGlobalStyle`
     font: inherit;
   }
 
-  body {
-    background-color: #ddd;
-    color: #000;
-
-    @media (prefers-color-scheme: dark) {
-      background-color: #333;
-      color: #fff;
-    }
-  }
-
   #root {
     isolation: isolate;
   }
