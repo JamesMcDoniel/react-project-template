@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minuntes: 15
+    timeout-minutes: 15
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    timeout-minuntes: 10
+    timeout-minutes: 10
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
